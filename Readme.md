@@ -1,13 +1,43 @@
-# How to Start with Git Hub using git bash
+# Git Bash Important Useful Commands
 
-To use github you need to download gitbash for windows or anyother operating system you are using.
-
-- ###### **STEP 1** ***Download Git***
-
- You can download git from here >>> [https://git-scm.com/downloads]
-
-- ###### **STEP 2** ***Checking The Git Status***
+- #### ***Checking The Git Status***
 
 Check the git status by using git command in git bash
 
 `git status`
+
+- #### To Commit Code 
+
+_Initial Commit/First Commit_
+
+`git commit -m "Initial Commit"`
+
+_Second Commit_
+
+`git commit -m "Second Commit"`
+
+Here `m` = MESSAGE and in this `"YOUR MESSAGE"` you can pass your message like Initial Commit/First Commit, Second Commit etc..
+
+
+- #### Pusing The Code to Master Branch
+
+`git push origin master`
+
+- #### Adding Untracked Files to Repository or Adding new file to Repository
+
+`git add "FILE NAME"`  
+
+_**FILE NAME** is the name of your file that you want to add into your repository_
+
+- #### To See the changes that have been made to a file
+
+`git diff "FILE NAME"`
+
+_**FILE NAME** is the name of your file that you want to add into your repository_
+
+#### To Check the Log of the Commits 
+
+`git log`
+
+
+
